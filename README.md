@@ -1,16 +1,37 @@
-# weatherapp_starter_project
 
-A new Flutter project.
+# Weather App
 
-## Getting Started
+A daily based application for checking weather of your location
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- It can tell the current weather data ⛅
+- It can tell the min/max weather of upcoming 7 days ☀️
+- It can tell the weather of the upcoming time⌚
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## Tech Dependencies
+
+Front-End-> Flutter 
+
+API-> Openweathermap API (https://openweathermap.org/api)
+
+API Testing-> Postman (https://www.postman.com/)
+
+## Build Instructions 🛠️
+
+Follow the instructions to run the app in your own system.
+  - Make sure flutter is properly installed in your system.
+
+  - Clone the repository using git clone (https://github.com/WhyC03/weather_app.git)
+
+  - Run flutter pub get.
+
+
+## *`SPECIAL NOTE`*
+Before Running the app, follow these instructions-> 👇
+- You need to create your own api key using this link: (https://openweathermap.org/api).
+- After clicking the above link, subscribe the "One Call API".
+- When the API is generated, paste the API key in the api_key.dart file (already mentioned in the file). 
